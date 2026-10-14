@@ -10,7 +10,7 @@ public class Lesson14
     static string connString = "Host=wotacoma.ru;Port=5090;Username=students;Password=asd123qwe4ewq321dsa;Database=9/3-RPO-24/1";
 
     static string myConnString = "Host=wotacoma.ru;Port=5090;Username=krishleb;Password=201123;Database=krishleb";
-// так же я понял что делал не в public...щас вроде все хорошо....вроде...
+// так же я понял что делал не в public...щас вроде все хорошо....вроде..
     public static void Run()
     {
         DbProviderFactories.RegisterFactory("Npgsql", NpgsqlFactory.Instance);
